@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render with default props 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: #000000;
+  withh: 100%;
+  padding: 8px 16px;
+  margin: 0 0 24px 0;
+}
+
+.c1 {
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 24px;
+  margin: 0 0 16px 0;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c3 {
+  width: 50%;
+  padding: 8px;
+}
+
+.c4 {
+  width: 50%;
+  padding: 8px;
+}
+
+.c5 {
+  padding: 8px 16px;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width:768px) {
+  .c1 {
+    font-size: 32px;
+    margin: 0;
+  }
+}
+
+@media (min-width:768px) {
+  .c3 {
+    min-width: 300px;
+    width: auto;
+  }
+}
+
+@media (min-width:768px) {
+  .c4 {
+    min-width: 30px;
+    width: auto;
+  }
+}
+
+<div
+  className="c0"
+>
+  <h1
+    className="c1"
+  >
+    Weather App
+  </h1>
+  <div
+    className="c2"
+  >
+    <input
+      aria-label="City name"
+      className="c3"
+      name="city"
+      onChange={[Function]}
+      placeholder="Enter city name"
+      type="text"
+      value=""
+    />
+    <input
+      aria-label="2 digit country code"
+      className="c4"
+      name="country"
+      onChange={[Function]}
+      placeholder="Enter country code"
+      type="text"
+      value=""
+    />
+    <button
+      className="c5"
+      onClick={[Function]}
+      type="submit"
+    >
+      Go
+    </button>
+  </div>
+</div>
+`;

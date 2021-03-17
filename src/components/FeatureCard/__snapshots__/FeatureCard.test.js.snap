@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render with default props 1`] = `
+.c0 {
+  padding: 0 0 24px 0;
+  margin: 0 0 24px 0;
+  border-bottom: 1px solid #727272;
+}
+
+.c1 {
+  font-size: 32px;
+  margin: 0 0 8px 0;
+  text-transform: uppercase;
+}
+
+.c2 {
+  color: #727272;
+}
+
+.c5 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    padding: 0 0 8px 0;
+    margin: 0 0 32px 0;
+  }
+}
+
+@media (min-width:768px) {
+  .c1 {
+    font-size: 40px;
+  }
+}
+
+@media (min-width:768px) {
+  .c3 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+@media (min-width:768px) {
+  .c5 {
+    font-size: 32px;
+  }
+}
+
+<div
+  className="c0"
+>
+  <h2
+    className="c1"
+  >
+    Melbourne
+  </h2>
+  <p
+    className="c2"
+  >
+    Wed Mar 17 2021
+  </p>
+  <p
+    className="c2"
+  >
+    Windy
+  </p>
+  <div
+    className="c3"
+  >
+    <div
+      className="c4"
+    >
+      <img
+        alt="Windy"
+        src="assets/icons/c01d.png"
+      />
+      <p
+        className="c5"
+      >
+        19
+        °
+      </p>
+    </div>
+    <div>
+      <p
+        className="c2"
+      >
+        Precipitation: 
+        1
+      </p>
+      <p
+        className="c2"
+      >
+        Wind: 
+        1.75
+      </p>
+      <p
+        className="c2"
+      >
+        UV: 
+        7.15
+      </p>
+    </div>
+  </div>
+</div>
+`;
